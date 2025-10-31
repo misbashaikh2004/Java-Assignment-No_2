@@ -4,7 +4,7 @@ public class VovelOrConsonant{
    
   char ch;
  
-  System.out.println("Enter Any Character"); 
+  System.out.rintln("Enter Any Character"); 
   Scanner sc=new Scanner(System.in);
 
   ch=sc.next().charAt(0);
