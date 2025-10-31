@@ -7,7 +7,8 @@ public class ConditionalOperator{
     System.out.println("Enter a Number");
     a=sc.nextInt();
     
-   (a%2==0)?System.out.println("the no is even"):System.out.println("the no is odd");
+   System.out.println((a%2==0) ? "the no is even" : "the no is odd");
+
    }
 }
     
