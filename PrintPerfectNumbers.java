@@ -5,7 +5,7 @@ public class PrintPerfectNumbers{
     int n;
     Scanner sc=new Scanner(System.in);
 
-    System.out.print("Enter A Character:");
+    System.out.print("Enter A Number:");
     n=sc.nextInt();
 
     for(int i=1;i<=n;i++)
