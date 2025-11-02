@@ -1,17 +1,21 @@
 import java.util.Scanner;
-
-public class PreviousAndNextCharacter{
-   public static void main(String[] args){
-  
-   char ch;
-   Scanner sc=new Scanner(System.in);
-     
-    System.out.println("Enter Character:");
-    ch=sc.next().charAt(0);
-
-    System.out.println("Previous character is :"+(char)(ch - 1));;
+public class VovelOrConsonant{
+  public static void main(String[] args){
+   
+  char ch;
  
-    System.out.println("Next character is :"+(char)(ch + 1));;
+  System.out.rintln("Enter Any Character"); 
+  Scanner sc=new Scanner(System.in);
 
+  ch=sc.next().charAt(0);
+
+  if(ch=='a' || ch=='e' || ch=='i' || ch=='e' || ch=='u'){
+     System.out.println("Character is Vovel");
+   }
+  else{
+     System.out.println("Character Is Consonant");
   }
+ }
 }
+  
+  
