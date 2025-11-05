@@ -1,3 +1,5 @@
+//9. Accept any year as input through the keyboard. Write a program to check whether the year isa leap year or not. (Hint leap year is divisible by 4 and not by 100 or divisible by 400) 
+
 import java.util.Scanner;
 public class LeapYear{
  public static void main(String[] args){
@@ -14,6 +16,6 @@ public class LeapYear{
     else{ 
       System.out.println("Not Leap Year");
    } 
- }
+  }
 }
     
