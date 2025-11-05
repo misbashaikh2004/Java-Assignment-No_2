@@ -13,14 +13,14 @@ public class Compare{
     b=sc.nextInt();
 
     if( a == b){
-        System.out.println("A Is Equal To B");
+        System.out.println(a +" "+"Is Equal To"+" " + b);
     }
     else if( a > b){
-        System.out.println("A Is Greater Than B");
+        System.out.println(a +" "+"Is Greater Than"+" "+ b);
     }
 
     else if( a < b){
-         System.out.println("A Is Less Than B");
+         System.out.println(a +" "+"Is Less Than" +" "+ b);
     }
     else{
          System.out.println("INVALID");
