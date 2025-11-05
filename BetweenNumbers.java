@@ -1,8 +1,9 @@
+//7. Write a program to accept three numbers and check whether the first is between the other two numbers. Ex: Input 20 10 30. Output: 20 is //between 10 and 30 
+
+
 import java.util.Scanner;
-
 public class BetweenNumbers{
-
-public static void main(String[] args){
+   public static void main(String[] args){
   
     int a,b,c;
     Scanner sc=new Scanner(System.in);
