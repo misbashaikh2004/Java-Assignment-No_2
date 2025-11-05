@@ -1,3 +1,5 @@
+//13. Accept the time as hour, minute and seconds and check whether the time is valid. (Hint:0<=hour<24, 0<=minute <60, 0<=second <60) (3 logics) 
+
 import java.util.Scanner;
 public class HoursMinutesSeconds{
   public static void main(String[] args){
