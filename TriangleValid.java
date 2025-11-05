@@ -1,3 +1,5 @@
+//10. Accept three sides of triangle as input, and print whether the triangle is valid or not. (Hint: The triangle is valid if the sum of each of //the two sides is greater than the third side).
+
 import java.util.Scanner;
 public class TriangleValid{
     public static void main(String[] args){
