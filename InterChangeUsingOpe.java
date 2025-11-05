@@ -14,7 +14,7 @@ public class InterChangeUsingOpe{
    a = a / b;
 
     
- System.out.println("After Changing The Number:"+ a +" "+b);
+   System.out.println("After Changing The Number:"+ a +" "+b);
   }
 }
   
